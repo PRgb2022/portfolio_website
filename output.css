@@ -1,1 +1,44 @@
 
+/*! Tailwind CSS v3.x | MIT License */
+*,::before,::after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}
+body{margin:0;line-height:1.5}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}
+a{text-decoration:inherit;color:inherit}
+button,input,optgroup,select,textarea{margin:0;padding:0;font-family:inherit;font-size:100%;line-height:inherit}
+.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity))}
+.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255 / var(--tw-bg-opacity))}
+.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity))}
+.hover\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity))}
+.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}
+.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity))}
+.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity))}
+.rounded-full{border-radius:9999px}
+.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1);box-shadow:var(--tw-shadow)}
+.hover\:text-blue-500:hover{--tw-text-opacity:1;color:rgb(59 130 246 / var(--tw-text-opacity))}
+.transition{transition-property:all;transition-duration:150ms;transition-timing-function:cubic-bezier(0.4,0,0.2,1)}
+.font-bold{font-weight:700}
+.text-center{text-align:center}
+.inline-block{display:inline-block}
+.mx-auto{margin-left:auto;margin-right:auto}
+.px-4{padding-left:1rem;padding-right:1rem}
+.py-6{padding-top:1.5rem;padding-bottom:1.5rem}
+.py-16{padding-top:4rem;padding-bottom:4rem}
+.p-4{padding:1rem}
+.rounded-lg{border-radius:0.5rem}
+.grid{display:grid}
+.gap-4{gap:1rem}
+.gap-6{gap:1.5rem}
+.flex{display:flex}
+.items-center{align-items:center}
+.justify-center{justify-content:center}
+.space-x-6> :not([hidden])~ :not([hidden]){margin-left:1.5rem}
+.space-y-2> :not([hidden])~ :not([hidden]){margin-top:0.5rem}
+.max-w-4xl{max-width:56rem}
+.max-w-5xl{max-width:64rem}
+.max-w-6xl{max-width:72rem}
+.sm\:text-xl{font-size:1.25rem}
+.sm\:text-5xl{font-size:3rem}
+.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.sm\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+
+is this the code of output.css?
